@@ -7,7 +7,7 @@ on:
 
 jobs:  
   tinibisamacemmacem:
-    name: Push Docker image to Docker Hub
+    name: Cyberacademy test 1
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
