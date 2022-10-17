@@ -1,0 +1,20 @@
+name: aris cyberacademy test CI
+
+on:  
+  pull_request:
+    branches:
+      - main
+
+jobs:  
+  tinibisamacemmacem:
+    name: Cyberacademy test 1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+
+      - name: Perintah Linux
+        run: |
+          ls -lah
+          id
+          echo "aris was here"
