@@ -1,0 +1,21 @@
+name: aris cyberacademy CI/CD master
+
+on:  
+  push:
+    branches:
+      - main
+
+jobs:  
+  deploy:
+    name: Cyberacademy CI from master
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+
+      - name: Perintah Linux
+        run: |
+          git status
+          ls -lah
+          id
+          echo "aris was here"
